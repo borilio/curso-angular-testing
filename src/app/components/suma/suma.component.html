@@ -1,0 +1,8 @@
+<h1>Suma de dos números</h1>
+<input type="number" #num1 placeholder="Número 1" />
+<span> y </span>
+<input type="number" #num2 placeholder="Número 2" />
+<span> = </span>
+<button #btnSumar (click)="sumar(num1.value,num2.value)">+</button>
+<button #btnMultiplicar (click)="multiplicar(num1.value, num2.value)">*</button>
+<input type="number" #resultado placeholder="Resultado" />
